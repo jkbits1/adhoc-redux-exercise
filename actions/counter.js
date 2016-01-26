@@ -1,5 +1,6 @@
-export const INCREMENT_COUNTER = 'INCREMENT_COUNTER';
-export const DECREMENT_COUNTER = 'DECREMENT_COUNTER';
+export const INCREMENT_COUNTER        = 'INCREMENT_COUNTER';
+export const DECREMENT_COUNTER        = 'DECREMENT_COUNTER';
+export const INCREMENT_TWICE_COUNTER  = 'INCREMENT_TWICE_COUNTER';
 
 export function increment() {
   return {
@@ -10,6 +11,12 @@ export function increment() {
 export function decrement() {
   return {
     type: DECREMENT_COUNTER
+  }
+}
+
+export function incrementTwice() {
+  return {
+    type: INCREMENT_TWICE_COUNTER
   }
 }
 
