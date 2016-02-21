@@ -1,6 +1,6 @@
 import { INCREMENT_COUNTER, INCREMENT_TWICE_COUNTER, DECREMENT_COUNTER } from '../actions/counter'
 
-export default function counter(state = 0, action) {
+export default function counter (state = 0, action) {
   switch (action.type) {
     case INCREMENT_TWICE_COUNTER:
       return state += 2;

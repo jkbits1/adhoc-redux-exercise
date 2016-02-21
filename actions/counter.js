@@ -29,7 +29,7 @@ export function incrementIfOdd() {
     }
 
     dispatch(increment());
-  }
+  };
 }
 
 export function incrementAsync (delay = 1000) {
