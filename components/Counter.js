@@ -1,4 +1,4 @@
-import React, { Component, PropTypes } from 'react'
+import React, { Component, PropTypes } from 'react';
 
 class Counter extends Component {
   render() {
@@ -30,4 +30,4 @@ Counter.propTypes = {
   counter: PropTypes.number.isRequired
 };
 
-export default Counter
+export default Counter;
